@@ -34,8 +34,8 @@
                         <tr>
                           <th scope="row">{{ $u->id }}</th>
                           <td>{{ $u->name }}</td>
-                          <td>{{ $u->email }}</td>
                           <td>{{ $u->cpf }}</td>
+                          <td>{{ $u->idade }}</td>
                           <td>{{ $u->data nascimento }}</td>
                           <td>
                                 <a href="usuarios/{{ $u->id }}/edit" class="btn btn-info">Editar</button>
