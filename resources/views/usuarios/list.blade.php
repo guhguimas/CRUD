@@ -23,17 +23,9 @@
                         <tr>
                           <th scope="col">#</th>
                           <th scope="col">Nome</th>
-                          <th scope="col">E-mail</th>
                           <th scope="col">CPF</th>
+                          <th scope="col">Idade</th>
                           <th scope="col">Data de Nascimento</th>
-                          <th scope="col">Rua</th>
-                          <th scope="col">Número</th>
-                          <th scope="col">CEP</th>
-                          <th scope="col">Cidade</th>
-                          <th scope="col">UF</th>
-                          <th scope="col">Ativo</th>
-                          <th scope="col">Editar</th>
-                          <th scope="col">Deletar</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -45,13 +37,6 @@
                           <td>{{ $u->email }}</td>
                           <td>{{ $u->cpf }}</td>
                           <td>{{ $u->data nascimento }}</td>
-                          <td>{{ $u->rua }}</td>
-                          <td>{{ $u->número }}</td>
-                          <td>{{ $u->cep }}</td>
-                          <td>{{ $u->cidade }}</td>
-                          <td>{{ $u->estado }}</td>
-                          <td>{{ $u->uf }}</td>
-                          <td>{{ $u->ativo }}</td>
                           <td>
                                 <a href="usuarios/{{ $u->id }}/edit" class="btn btn-info">Editar</button>
                           </td>
