@@ -92,6 +92,51 @@
                         <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                       </div>
 
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">CPF:</label>
+                        <input type="cpf" name="cpf" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Data de Nascimento:</label>
+                        <input type="data" name="data nascimento" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Rua:</label>
+                        <input type="text" name="rua" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Número:</label>
+                        <input type="number" name="número" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">CEP:</label>
+                        <input type="number" name="cep" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Cidade:</label>
+                        <input type="text" name="cidade" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Estado:</label>
+                        <input type="text" name="estado" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">UF:</label>
+                        <input type="text" name="uf" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Ativo:</label>
+                        <input type="True" name="ativo" class="form-control">
+                      </div>
+
                       <button type="submit" class="btn btn-primary">Cadastrar</button>
                     </form>
                     @endif
