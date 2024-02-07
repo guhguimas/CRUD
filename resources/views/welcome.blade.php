@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Meu CRUD
+                    CRUD Lendfy
                 </div>
             </div>
         </div>
