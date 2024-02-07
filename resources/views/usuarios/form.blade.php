@@ -32,12 +32,17 @@
 
                       <div class="form-group">
                         <label for="exampleInputEmail1">CPF:</label>
-                        <input type="cpf" name="cpf" class="form-control" value="{{ $usuario->cpf }}">
+                        <input type="number" name="cpf" class="form-control" value="{{ $usuario->cpf }}">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Idade:</label>
+                        <input type="text" name="idade" class="form-control" value="{{ $usuario->data  }}">
                       </div>
 
                       <div class="form-group">
                         <label for="exampleInputEmail1">Data de Nascimento:</label>
-                        <input type="data" name="data nascimento" class="form-control" value="{{ $usuario->data  }}">
+                        <input type="date" name="data nascimento" class="form-control" value="{{ $usuario->data  }}">
                       </div>
 
                       <div class="form-group">
@@ -98,8 +103,13 @@
                       </div>
 
                       <div class="form-group">
+                        <label for="exampleInputEmail1">Idade:</label>
+                        <input type="number" name="idade" class="form-control">
+                      </div>
+
+                      <div class="form-group">
                         <label for="exampleInputEmail1">Data de Nascimento:</label>
-                        <input type="data" name="data nascimento" class="form-control">
+                        <input type="date" name="data nascimento" class="form-control">
                       </div>
 
                       <div class="form-group">
